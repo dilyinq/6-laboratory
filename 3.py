@@ -1,7 +1,7 @@
 students = { "Дима": ["English", "German"], "Лена": ["French", "English"],
     "Саша": ["Japan", "Chinese"], "Кристина": ["Chinese", "German"]}
 
-all_languages = set()
+all_languages = set() #множество
 for student, languages in students.items():
     all_languages.update(languages)
 sorted_languages = sorted(all_languages)
